@@ -1,0 +1,51 @@
+
+// SÉQUENCE DE DÉMARRAGE //
+DBT ;						// début de l'exécution.
+DAL 1 ;						// allumer la DEL bicolore en vert.
+ATT 50 ;					// attendre 1250 ms (instruction exécutée)
+DET ;						// éteindre la DEL.
+
+ATT 50 ;					// attendre 1250 ms (instruction exécutée)
+DAL 1 ;						// allumer la DEL bicolore en vert.
+ATT 50 ;					// attendre 1250 ms (instruction exécutée)
+DET ;						// éteindre la DEL.
+
+ATT 50 ;					// attendre 1250 ms (instruction exécutée)
+
+//	DEPLACEMENT VERS L'AVANT //
+MAR ;						// arrêter
+MAV 128 ;					// vitesse de 50% (50% du PWM)
+ATT 100 ;					// attendre 2500 ms (instruction exécutée)
+MAR ;						// arrêter
+
+//	DÉPLACEMENT VERS L'ARRIÈRE //
+MAR ;						// arrêter
+MRE 128 ;					// vitesse de 50% (50% du PWM)
+ATT 100 ;					// attendre 2500 ms (instruction exécutée)
+MAR ;						// arrêter
+
+// ROTATION VERS LA DROITE //
+MAR ;						// arrêter
+TRD ;						// virage du robot de 90 degree à droite
+ATT 100 ;					// attendre 2500 ms (instruction exécutée)
+MAR ;						// arrêter
+
+// ROTATION VERS LA GAUCHE //
+MAR ;						// arrêter
+TRG ;						// virage du robot de 90 degree à gauche
+ATT 100 ;					// attendre 2500 ms (instruction exécutée)
+MAR ;						// arrêter
+
+// AFFICHAGE DE LA MATRICE //
+DBC	4 ;						// la boucle s'exécutera 5 fois
+MON 105 ;					// premier affichage
+ATT 10 ;					// attendre 250 ms (instruction exécutée)
+MON 150 ;					// deuxième affichage
+ATT 10 ;					// attendre 250 ms (instruction exécutée)
+MOF ;						// ne plus rien d’afficher sur la matrice de DEL
+ATT 100 ;					// attendre 2500 ms (instruction exécutée)
+FBC ;						// boucler à l'instruction dbc précédente
+
+// FIN DU PROGRAMME // 
+FIN ;
+

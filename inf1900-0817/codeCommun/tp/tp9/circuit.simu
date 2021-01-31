@@ -1,0 +1,6 @@
+<circuit reactStep="50" speed="1000000" noLinAcc="5" animate="0" type="simulide_0.4">
+ 
+PlotterWidget: 
+<item styleSheet="" itemtype="Plotter" minimumSize="" y="0" cursor="" enabled="true" modal="false" frameSize="" x="0" MaxVolt="500" windowTitle="" accessibleDescription="" geometry="" maximumWidth="1000" autoFillBackground="false" minimumHeight="200" Tracks="1" focus="false" windowOpacity="1" rect="" tabletTracking="false" frameGeometry="" layoutDirection="0" maximumHeight="200" childrenRect="" accessibleName="" whatsThis="" normalGeometry="" mouseTracking="false" size="" maximized="false" objectName="PlotterWidget" height="200" sizeHint="" toolTipDuration="-1" baseSize="" statusTip="" fullScreen="false" toolTip="" sizeIncrement="" windowFilePath="" sizePolicy="" visible="false" windowIcon="" minimumWidth="200" acceptDrops="false" MinVolt="-500" Scale="1" updatesEnabled="true" windowIconText="" palette="" windowModified="false" width="200" minimumSizeHint="" isActiveWindow="true" focusPolicy="0" inputMethodHints="0" childrenRegion="" font="Noto Sans,9,-1,5,50,0,0,0,0,0" pos="" contextMenuPolicy="1" minimized="false" windowModality="0" locale="" maximumSize=""/>
+ 
+</circuit>

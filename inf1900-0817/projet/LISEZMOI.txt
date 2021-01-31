@@ -1,0 +1,4 @@
+Le montage a utilise est montage.simu il est situé dans le répertoire Projet.
+Il faut compiler la librairie avant de compiler le code dans le répertoire Projet
+étant donné que le code pour l'utilisation de UART et DEBUG_PRINT, pour affcher a la console 
+ce trouve dans notre librairie.
